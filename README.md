@@ -4,7 +4,7 @@ A simple weather forecasting app that fetches real-time weather data using a wea
 
 🌐 Live Demo
 
-🔗 [Click here to view the deployed app](https://your-deployed-link.netlify.app)
+🔗 [Click here to view the deployed app](https://manjunath1004.github.io/weather_forecast/)
 
 ## 🚀 Features
 
