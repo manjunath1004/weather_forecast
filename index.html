@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Weather Explorer</h1>
+    <p>Get accurate weather updates for any village or city around the world!</p>
+  </header>
+
+  <main>
+    <div class="input-container">
+      <label for="location">Enter a location (village/city):</label>
+      <input type="text" id="location" placeholder="Enter a location" />
+      <button onclick="fetchWeatherByLocation()">Get Weather</button>
+      <button onclick="getCurrentLocation()">Use Current Location</button>
+    </div>
+
+    <div class="weather-info" id="weather-info">
+      <h2>Weather Details</h2>
+      <p id="weather-location">Location: </p>
+      <p id="weather-temperature">Temperature: </p>
+      <p id="weather-description">Description: </p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Weather Explorer. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
